@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@android:drawable/btn_star"
+            android:title="Kółko krzyżyk" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_revert"
+            android:title="Odwrócone" />
+
+        <item
+            android:id="@+id/nav_onlyx"
+            android:icon="@android:drawable/ic_delete"
+            android:title="Only X" />
+    </group>
+</menu>
